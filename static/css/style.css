@@ -211,6 +211,25 @@ h4 {
 }
 
 
+/* Integrated Logos */
+.integrated {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.integrated p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+.logo-strip {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Features Section */
 .features {
     padding: 120px 80px;
@@ -322,7 +341,6 @@ h4 {
 .flow-image:hover img {
     transform: scale(1.02);
 }
-
 
 /* Tech Stack */
 .tech-stack {
